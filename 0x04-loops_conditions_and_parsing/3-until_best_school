@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# using until loop to echo string
+
+until [[ "$i" -eq 10 ]]; do
+echo "Best School"
+i=$((i + 1))
+done
