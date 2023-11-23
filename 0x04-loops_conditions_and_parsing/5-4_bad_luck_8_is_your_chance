@@ -2,10 +2,10 @@
 # print based on some conditions
 
 while [[ $i -lt 10 ]]; do
-    if [ $i -eq 3 ]
+    if [[ $i -eq 3 ]]
     then
         echo "bad luck"
-    elif [ $i -eq 7 ]
+    elif [[ $i -eq 7 ]]
     then
         echo "good luck"
     else
