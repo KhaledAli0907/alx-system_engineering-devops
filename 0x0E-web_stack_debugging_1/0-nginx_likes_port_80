@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# go to sites-enabled folder
+cd /etc/nginx/sites-enabled || exit;
+
+rm default;
+
+ln -s /etc/nginx/sites-available/default default;
+
+service nginx restart
