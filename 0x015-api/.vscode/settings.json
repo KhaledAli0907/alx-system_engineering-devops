@@ -1,5 +1,0 @@
-{
-    "files.autoSave": "afterDelay",
-    "editor.defaultFormatter": "ms-python.black-formatter",
-    "editor.formatOnSave": true
-}
