@@ -26,9 +26,9 @@ def main():
         if todo.get("userId") == int(argv[1]):
             total += 1
 
-        if todo.get("completed") == True:
-            completed += 1
-            tasks.append(todo.get("title"))
+            if todo.get("completed") == True:
+                completed += 1
+                tasks.append(todo.get("title"))
 
     print("Employee {} is done with tasks({}/{}):".format(employee, completed, total))
 
